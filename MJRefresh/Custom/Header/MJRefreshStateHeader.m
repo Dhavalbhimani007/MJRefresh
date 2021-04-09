@@ -51,6 +51,7 @@
     if (title == nil) return;
     self.stateTitles[@(state)] = title;
     self.stateLabel.text = self.stateTitles[@(self.state)];
+    self.stateLabel.textColor = [UIColor whiteColor];
 }
 
 #pragma mark key的处理
